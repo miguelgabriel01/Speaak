@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speak</title>
+  <link rel="stylesheet" href="./public/css/speak.css">
+  <link rel="stylesheet" href="./public/css/speakmobile.css">
+  <script src="./public/js/speak.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="body">
+    <div class="content">
+      <h1>Leitor de texto</h1>
+      <div id="textinput" contenteditable oninput="setText(event)">Seu texto aqui...</div>
+    
+      <div class="buttonsop">
+        <button class="button-Enviar" style="  background-color:CadetBlue;" onclick="speak()" >Falar</button>
+        <button class="button-Enviar" style="  background-color:DarkSalmon;" onclick="stop()" >pausar</button>
+      </div>
+    <a id="link" href="https://github.com/miguelgabriel01">Reproduced by: Miguel Gabriel</a>
+    </div>
+  </div>
+  
+</body>
+</html>
